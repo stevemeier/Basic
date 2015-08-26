@@ -1,21 +1,15 @@
 <?php
 
-$random = array (
-    'img/header01.jpg',
-    'img/header02.jpg',
-    'img/header03.jpg',
-    'img/header04.jpg',
-    'img/header05.jpg',
-    'img/header06..jpg',
-    'img/header07.jpg',
-    'img/header08.jpg',
-    'img/header09.jpg',
-);
+chdir($_SERVER['DOCUMENT_ROOT'].'/themes/Basic-master');
+$random = scandir('img');
+// remove . and ..
+array_shift($random);
+array_shift($random);
 
 $count = count($random) -1;
 
 $number = rand(0, $count);
 
-echo $random[$number]
+echo 'img/'.$random[$number]
 
 ?>
