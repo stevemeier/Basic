@@ -85,7 +85,7 @@
                      <div class="site-heading">
                          <h1><?php echo site_name(); ?></h1>
                          <hr class="small">
-                         <span class="subheading">How much wood could a woodchuck chuck, if a woodchuck could chuck wood?</span>
+                         <span class="subheading">Jetzt mit 100% mehr Inhalt!</span>
                      </div>
                  </div>
              </div>
